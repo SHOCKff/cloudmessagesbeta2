@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATS</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+ <div id="nav_in_js">  
+    <div id="profile">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div id="user_name">User name</div>
+    </div>
+    <div id="chats">CHATS</div>
+    <div id="add_friends" onclick="add_friends()">➕</div>
+    <div id="notifi_bell_index">🔔</div>
+ </div>
+
+ <div id="chats_in_js"> 
+    <div class="profile" id="friend1">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend2">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend3">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend4">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend5">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend6">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend7">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend8">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend9">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend10">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend11">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend12">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend13">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend14">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend15">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend16">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend17">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend18">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend19">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend20">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend21">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend22">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend23">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend24">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+    <div class="profile" id="friend25">
+        <img src="images/default.jpg" alt="profile pic" width="40" height="40">
+        <div class="user_name"></div>
+    </div>
+ </div>
+
+ <div id="addfriends_in_js">
+    <div id="friendSearchContainer">
+        <h1>Search for Friends</h1>
+        <input type="text" id="searchBar" placeholder="Search by id or username...">
+        <button id="searchButton" onclick="searchFriends()">Search</button>
+
+        <div id="friendSearchResults"></div>
+    </div>
+ </div>
+
+    <div id="container">
+        <div class="title">
+            <h2>Friend Requests Received</h2>
+        </div>
+        <div id="friendRequestsList">
+            <!-- Friend requests will be added here dynamically -->
+        </div>
+    </div>
+
+
+ <script src="./index.js"></script>
+ <script src="./friendsSearch.js"></script>
+</body>
+</html>

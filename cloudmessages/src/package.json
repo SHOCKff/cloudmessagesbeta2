@@ -4,7 +4,7 @@
   "description": "A tool form easy messages",
   "main": "index.js",
   "scripts": {
-    "start": "node ./cloudmessages/index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
